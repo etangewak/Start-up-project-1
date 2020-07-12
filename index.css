@@ -39,7 +39,7 @@ body{
 .cover-image{
    height: 60vh;
 /*   background-color: yellow;   */
-   background-image: url(../project/picture/whats.jpg);
+   background-image: url(whats.jpg);
    background-size: cover;
 }
 article{
@@ -242,17 +242,17 @@ a {
 }                                           
 .image-volunteer1{
      bottom: 11em;
-     background-image: url(./picture/food1.png);
+     background-image: url(food1.png);
      background-size: cover;
 }  
 .image-service{
      bottom: 16em;
-     background-image: url(./picture/food2.png);
+     background-image: url(food2.png);
      background-size: cover;
 }  
 .image-speaker{
  bottom: 15em;
- background-image: url(./picture/whitewomen.png);
+ background-image: url(whitewomen.png);
  background-size: cover;
 }
 footer{
