@@ -1,0 +1,290 @@
+body{
+    color: black;
+    text-rendering: optimizeLegibility;
+    background-color: white;
+    max-width: 100%;
+    font-family: serif;
+    font-size:large;
+ }
+ .major{
+     height: 200vh;
+     background-color: #ffff;   
+ }
+ nav{
+     position: fixed;
+     top:-0.4em;
+     background-color: #fff;
+     height: 14vh;
+     width: 100%; 
+     z-index: 10;
+ }
+ ul li{
+     display: inline-block;
+     margin-left: 1em;
+     font-size: 1.3em;
+     margin-top: 0.5em;
+ }
+ .li{  
+     position: absolute;
+     left: 60%;
+     top:5%;
+     color: #000;  
+     list-style: none;     
+ }
+.logo{
+     position: relative;
+     left:7%;
+     margin-top: 1.4em;
+}
+.cover-image{
+   height: 60vh;
+/*   background-color: yellow;   */
+   background-image: url(../project/picture/whats.jpg);
+   background-size: cover;
+}
+article{
+ /*background-color: #fff;*/
+   width:15em;
+   height: 6em;
+   position: relative;
+   top: -47vh;
+   left:25%;
+   font-size: 3em;
+   color:#fff;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style:initial;
+}
+button{
+   position: relative;
+   bottom:30em;
+   left: 40em;
+   background-color: rgb(8, 8, 54);    /* color must go with respect to picture background */
+   padding: 1em;
+   color:white;
+}
+.major1{
+   position: relative;
+   bottom: 21em;
+   height: 50vh;
+   background-color: white;       /*backgroundcolor to be change */
+}
+.box{
+   position: relative;
+   bottom: 21em;
+}
+article{
+   text-align: center;
+   color: white;
+}
+.what-we{
+   /*background-color: rgb(238, 227, 227); */
+   font-style: initial;
+   font-size: 6em;
+   text-align: center;
+   color: rgb(201, 190, 190);
+   opacity: 20%;
+}
+.we-do{
+   position: relative;
+   bottom: 3em;
+   left: 45%;
+   /*background-color: #FFFF; */
+   font-size:medium;
+   font-weight: bolder;
+   font-size: 1.4em;
+   color: black;    
+}
+a {
+   text-decoration: none;
+}
+.boxes{
+   position: relative;
+   top:-4em;
+   display: inline-block;
+   margin-left: 5em;
+   width:12em;
+   height:12em;
+   font-family: serif;   
+   text-align: center; 
+   font-size: large; 
+}
+.box1{
+   position: relative;
+   right:1em;
+   top:-5em;
+/*         background-color: red;  */
+
+}
+.box2{
+   position: relative;
+   left:8em;
+/*     background-color: blue;     */
+}
+.box3{
+   position: relative;
+   left:16em;
+   top: -5em;
+/*      background-color: red; */
+}
+.img3{
+   position: relative;
+   left: 52em;
+   bottom: 4em;
+}
+.img2{
+   position: relative;
+   left: 30em;
+   bottom: 4em;
+}
+.img1{
+   position: relative;
+   left: 6em;
+   bottom: 4em;
+}
+.major4{
+   position: relative;
+   top: -21em;
+   height: 35vh;
+/*    background-color: blue;     */
+}
+.dinner-service-major{
+ margin-top: 0.1em;
+ font-style: initial;
+ font-size: 6em;
+ text-align: center;
+ color: rgb(201, 190, 190);
+ opacity: 20%;
+}
+.dinner-service-minor{
+ position: relative;
+ bottom: 3em;
+ left: 44%;
+ /*background-color: red;  */
+ font-size:medium;
+ font-weight: bolder;
+ font-size: 1.4em; 
+}
+.dinner-service-junior{
+ font-size:medium;
+ font-weight: bolder;
+ text-align: center;
+ margin-top: -1.3em; 
+}                                     /*part two */
+.get-involve{
+   position: relative;
+   bottom: 23.5em;
+   height: 25vh;
+   background-color: white;
+}
+.get{
+ margin-top: 0.1em;
+ font-style: initial;
+ font-size: 6em;
+ text-align: center;
+ color: rgb(201, 190, 190);
+ opacity: 20%;
+}
+.involve{
+ position: relative;
+ bottom: 3em;
+ left: 43%;
+ /*background-color: #FFFF; */
+ font-size:medium;
+ font-weight: bolder;
+ font-size: 1.4em; 
+}
+
+#images{
+ position: relative;
+ background-color: violet;
+ height: 4em;
+ bottom: 22em;
+ visibility: hidden;
+}
+.text{
+   position: relative;
+   width: 26em;
+   background-color: #fff;
+   margin-left: 10em;
+   margin-top: 2em;
+}
+.text-service{
+   bottom: 1em;
+}
+.text-speaker{
+ bottom: 4em;
+}
+.image {
+   position: relative;
+   left:39em;
+   bottom: 12em;
+   width: 18em;
+   height: 10em;
+   margin: 2em;
+ /* background-color: red;   */
+}            
+.volunteer1{
+/*      background-color: chartreuse;   */
+ height: 16em;
+ position: relative;
+ bottom: 24em;
+} 
+.service{
+/*     background-color: darkblue; */
+   position: relative;
+   bottom: 29em;
+}
+.speaker{
+   width: 100%;
+/*    background-color: darkgoldenrod;    */
+   position: relative;
+   bottom:10em;
+}                                           
+.image-volunteer1{
+     bottom: 11em;
+     background-image: url(./picture/food1.png);
+     background-size: cover;
+}  
+.image-service{
+     bottom: 16em;
+     background-image: url(./picture/food2.png);
+     background-size: cover;
+}  
+.image-speaker{
+ bottom: 15em;
+ background-image: url(./picture/whitewomen.png);
+ background-size: cover;
+}
+footer{
+   background-color: black;
+   height: 35vh;
+   position: relative;
+   bottom: 19em;
+   color: white;
+   text-align: justify;
+   font-family:  serif;
+}
+.nav{
+   width: 10%;
+   position: absolute;
+   top: 2em;
+   margin-left: 5%;      
+/*   background-color: blue; */
+}
+.social-media{
+   width: 10%;
+/*   background-color: yellow;   */
+   position: absolute;
+   left: 35%;
+   top:2em;
+}
+address{
+   width: 20%;
+   position: absolute;
+   top:5em;
+ /* background-color: red;   */
+   left: 70%;
+}
+h6{
+   margin-left: 70%; position: absolute; top: 2em;
+}
